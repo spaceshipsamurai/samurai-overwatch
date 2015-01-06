@@ -1,3 +1,4 @@
-/**
- * Created by Russell on 1/5/2015.
- */
+var emitter = require('events').EventEmitter,
+    shortbus = new emitter();
+
+module.exports = shortbus;

@@ -1,3 +1,4 @@
-/**
- * Created by Russell on 1/5/2015.
- */
+exports.CharacterService = require('./eve/character-service');
+exports.KeyService = require('./eve/key-service');
+
+
